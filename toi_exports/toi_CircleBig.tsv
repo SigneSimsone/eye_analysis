@@ -1,0 +1,43 @@
+﻿Recording	Dzimums	Dzirdes_traucējumi	Labrocis_vai_kreilis	Muzikālā_izglītība	Pazīst_nošu_partitūru	Spēlē_klavieres	Vecums	Participant	TOI	Interval	Stimulus_template	Row_number	Duration_of_interval	Start_of_interval	Last_key_press	Total_duration_of_whole_fixations	Average_duration_of_whole_fixations	Number_of_whole_fixations	Duration_of_first_whole_fixation	Average_whole-fixation_pupil_diameter	Average_whole-fixation_eye_openness	Number_of_saccades	Average_peak_velocity_of_saccades	Minimum_peak_velocity_of_saccades	Maximum_peak_velocity_of_saccades	Standard_deviation_of_peak_velocity_of_saccades	Average_amplitude_of_saccades	Minimum_amplitude_of_saccades	Maximum_amplitude_of_saccades	Total_amplitude_of_saccades	Time_to_first_saccade	Direction_of_first_saccade	Peak_velocity_of_first_saccade	Average_velocity_of_first_saccade	Amplitude_of_first_saccade
+Recording1	Vīrietis	Nē	labrocis	Nē	Nē	Nē	26	Participant1	CircleBig	1	ObjectSize	1	2017	105038		0		0				0													
+Recording1	Vīrietis	Nē	labrocis	Nē	Nē	Nē	26	Participant1	CircleBig	2	ObjectSize	3	2033	107688		0		0				0													
+Recording2	Sieviete	Nē	labrocis	Nē	Jā	Jā	22	Participant2	CircleBig	1	ObjectSize	3	2017	142542		177	177	1	177	3,85334	10,35113	2	48,96	38,92	59,01	14,21	2	1,59	2,42	4,01	437	83,17	59,01	47,15	2,42
+Recording2	Sieviete	Nē	labrocis	Nē	Jā	Jā	22	Participant2	CircleBig	2	ObjectSize	1	2017	148208		80	80	1	80	3,43616	5,99694	1	60,8	60,8	60,8		0,55	0,55	0,55	0,55	954	344,49	60,8	46,92	0,55
+Recording3	Sieviete	Nē	labrocis	Nē	Nē	Nē	24	Participant3	CircleBig	1	ObjectSize	3	2017	259882		410	102	4	93	2,7842	11,92235	1	30,33	30,33	30,33		0,32	0,32	0,32	0,32	951	134,03	30,33	30,33	0,32
+Recording3	Sieviete	Nē	labrocis	Nē	Nē	Nē	24	Participant3	CircleBig	2	ObjectSize	1	2017	262532		300	300	1	300	2,90612	11,28696	1	122,44	122,44	122,44		2,55	2,55	2,55	2,55	1078	318,34	122,44	97,28	2,55
+Recording4	Sieviete	Nē	labrocis	Nē	Jā	Nē	26	Participant4	CircleBig	1	ObjectSize	1	2017	126281		1120	560	2	447	2,46411	10,85055	3	85,16	32,36	140,69	54,21	2,03	0,61	3,39	6,1	324	102,24	82,43	55,35	2,1
+Recording4	Sieviete	Nē	labrocis	Nē	Jā	Nē	26	Participant4	CircleBig	2	ObjectSize	3	2017	128914		1157	578	2	633	2,4918	10,61252	2	76,67	36,58	116,76	56,69	2,27	1,39	3,15	4,55	931	93,6	36,58	34,48	1,39
+Recording5	Vīrietis	Nē	kreilis	Nē	Jā	Nē	26	Participant5	CircleBig	1	ObjectSize	3	2000	167405		1353	271	5	337	2,89304	9,24565	5	103,03	35,9	164,92	49,08	2,59	0,66	4,83	12,94	6	78,96	35,9	34,47	0,66
+Recording5	Vīrietis	Nē	kreilis	Nē	Jā	Nē	26	Participant5	CircleBig	2	ObjectSize	1	2033	170038		1320	220	6	170	2,93739	9,38553	7	83,16	47,54	146,77	36,69	2,16	0,86	3,83	15,11	259	178,04	64,5	51,19	1,6
+Recording6	Vīrietis	Nē	labrocis	Nē	Nē	Nē	26	Participant6	CircleBig	1	ObjectSize	1	2033	213371		0		0				0													
+Recording6	Vīrietis	Nē	labrocis	Nē	Nē	Nē	26	Participant6	CircleBig	2	ObjectSize	3	2017	216021		0		0				0													
+Recording7	Vīrietis	Nē	labrocis	Nē	Nē	Nē	35	Participant7	CircleBig	1	ObjectSize	1	2033	203004	Space	797	266	3	257	2,77338	8,94219	3	400,53	178,64	514,05	192,18	20,12	3,38	29,53	60,37	1004	264,5	514,05	307,13	27,46
+Recording7	Vīrietis	Nē	labrocis	Nē	Nē	Nē	35	Participant7	CircleBig	2	ObjectSize	3	2017	208337		1123	281	4	457	2,72931	10,63261	1	127,86	127,86	127,86		2,14	2,14	2,14	2,14	1394	67,42	127,86	93,28	2,14
+Recording8	Sieviete	Nē	labrocis	Nē	Jā	Nē	22	Participant8	CircleBig	1	ObjectSize	1	2017	117436		0		0				1	47,45	47,45	47,45		1,19	1,19	1,19	1,19	407	117,43	47,45	41,89	1,19
+Recording8	Sieviete	Nē	labrocis	Nē	Jā	Nē	22	Participant8	CircleBig	2	ObjectSize	3	2017	125370		0		0				1	85,42	85,42	85,42		1,77	1,77	1,77	1,77	540	107,22	85,42	64,54	1,77
+Recording9	Vīrietis	Nē	labrocis	Nē	Nē	Nē	22	Participant9	CircleBig	1	ObjectSize	1	2000	162642		0		0				0													
+Recording9	Vīrietis	Nē	labrocis	Nē	Nē	Nē	22	Participant9	CircleBig	2	ObjectSize	3	2017	167908		0		0				0													
+Recording10	Sieviete	Nē	labrocis	Nē	Jā	Jā	22	Participant10	CircleBig	1	ObjectSize	1	2033	174045		1363	273	5	420	3,57404	11,25432	6	120,75	43,64	178,17	52,2	3,86	1,03	7,54	23,17	268	216,34	88,87	68,5	1,77
+Recording10	Sieviete	Nē	labrocis	Nē	Jā	Jā	22	Participant10	CircleBig	2	ObjectSize	3	2017	176695		870	217	4	297	3,6531	10,92812	4	80,85	39,82	115,02	35,7	2,42	1,15	3,68	9,66	841	259,44	106,07	79,1	3,68
+Recording11	Vīrietis	Nē	labrocis	Nē	Jā	Nē	35	Participant11	CircleBig	1	ObjectSize	3	2017	227529		1437	1437	1	1437	2,41044	7,41646	2	56,49	51,51	61,47	7,04	1,4	0,79	2,01	2,8	362	88,13	61,47	51,97	2,01
+Recording11	Vīrietis	Nē	labrocis	Nē	Jā	Nē	35	Participant11	CircleBig	2	ObjectSize	1	2033	230163		0		0				1	41,35	41,35	41,35		0,89	0,89	0,89	0,89	1352	98,33	41,35	37,59	0,89
+Recording12	Sieviete	Jā	labrocis	Nē	Jā	Nē	35	Participant12	CircleBig	1	ObjectSize	3	2017	197414		0		0				0													
+Recording12	Sieviete	Jā	labrocis	Nē	Jā	Nē	35	Participant12	CircleBig	2	ObjectSize	1	2017	203431		1223	408	3	307	2,74781	7,07048	2	56,89	35,55	78,22	30,17	1,12	0,72	1,51	2,23	944	303,74	78,22	61,67	1,51
+Recording13	Sieviete	Nē	labrocis	Nē	Jā	Nē	22	Participant13	CircleBig	1	ObjectSize	3	2017	205848		1437	359	4	300	2,85034	10,51749	5	113,15	47,48	258,43	86,27	2,73	0,94	6,83	13,64	144	272,03	258,43	158,65	6,83
+Recording13	Sieviete	Nē	labrocis	Nē	Jā	Nē	22	Participant13	CircleBig	2	ObjectSize	1	2033	208498		1403	351	4	583	2,97046	10,53111	5	56,44	33,27	90,03	26,02	1,17	0,61	2,15	5,83	504	115,65	42,37	37,64	0,77
+Recording14	Sieviete	Nē	labrocis	Jā	Jā	Jā	35	Participant14	CircleBig	1	ObjectSize	3	2033	176611		180	180	1	180	2,59789	10,68627	1	95,26	95,26	95,26		0,62	0,62	0,62	0,62	1323	126,11	95,26	52,61	0,62
+Recording14	Sieviete	Nē	labrocis	Jā	Jā	Jā	35	Participant14	CircleBig	2	ObjectSize	1	2017	181911		813	271	3	373	2,5482	10,83523	2	57,41	37,92	76,89	27,55	1,17	0,76	1,59	2,35	1433	238,49	37,92	36,42	0,76
+Recording15	Sieviete	Nē	labrocis	Jā	Jā	Jā	24	Participant15	CircleBig	1	ObjectSize	1	2017	158709		0		0				0													
+Recording15	Sieviete	Nē	labrocis	Jā	Jā	Jā	24	Participant15	CircleBig	2	ObjectSize	3	2017	161692		0		0				0													
+Recording16	Vīrietis	Nē	labrocis	Nē	Jā	Jā	35	Participant16	CircleBig	1	ObjectSize	1	2033	168658		0		0				0													
+Recording16	Vīrietis	Nē	labrocis	Nē	Jā	Jā	35	Participant16	CircleBig	2	ObjectSize	3	2017	173975		0		0				0													
+Recording17	Vīrietis	Nē	labrocis	Jā	Jā	Jā	35	Participant17	CircleBig	1	ObjectSize	3	2017	192282		290	290	1	290	2,69246	9,90095	1	102,51	102,51	102,51		1,63	1,63	1,63	1,63	317	110	102,51	74,52	1,63
+Recording17	Vīrietis	Nē	labrocis	Jā	Jā	Jā	35	Participant17	CircleBig	2	ObjectSize	1	2000	194932		0		0				0													
+Recording18	Vīrietis	Nē	labrocis	Nē	Nē	Nē	25	Participant18	CircleBig	1	ObjectSize	3	2017	116942		437	437	1	437	2,49369	9,28738	2	149,53	121,76	177,31	39,28	3,78	2,96	4,6	7,56	899	358,65	121,76	81,83	2,96
+Recording18	Vīrietis	Nē	labrocis	Nē	Nē	Nē	25	Participant18	CircleBig	2	ObjectSize	1	2000	122225		650	325	2	283	2,58181	9,22805	3	101,19	41,65	176,1	68,53	2,6	0,85	4,48	7,8	759	6,09	85,82	65,05	2,47
+Recording19	Sieviete	Nē	labrocis	Jā	Jā	Jā	35	Participant19	CircleBig	1	ObjectSize	3	2017	132986		380	380	1	380	2,47065	10,22638	2	46,46	43,24	49,68	4,56	0,63	0,58	0,68	1,26	408	158,95	43,24	42,7	0,58
+Recording19	Sieviete	Nē	labrocis	Jā	Jā	Jā	35	Participant19	CircleBig	2	ObjectSize	1	2017	135636		400	400	1	400	2,45738	10,0156	0													
+Recording20	Sieviete	Nē	labrocis	Nē	Jā	Jā	22	Participant20	CircleBig	1	ObjectSize	3	2017	103978		1383	692	2	547	2,79726	8,75979	3	77,5	53,63	94,68	21,33	1,87	1,3	2,45	5,62	238	100,6	94,68	70,35	2,45
+Recording20	Sieviete	Nē	labrocis	Nē	Jā	Jā	22	Participant20	CircleBig	2	ObjectSize	1	2017	106628		940	940	1	940	2,7997	8,56296	1	83,47	83,47	83,47		2,18	2,18	2,18	2,18	1348	272,49	83,47	62,05	2,18
+Recording21	Sieviete	Nē	labrocis	Nē	Jā	Jā	25	Participant21	CircleBig	1	ObjectSize	1	2017	99307		1267	253	5	423	2,73532	11,17256	6	173,55	103,12	223,96	44,45	3,64	2,82	4,89	21,82	546	267,92	103,12	64,57	2,89
+Recording21	Sieviete	Nē	labrocis	Nē	Jā	Jā	25	Participant21	CircleBig	2	ObjectSize	3	2000	104590		1477	295	5	243	2,60371	11,27401	3	79,56	61,16	98,91	18,89	1,76	1,44	2,06	5,28	623	271,4	98,91	59,64	1,78
