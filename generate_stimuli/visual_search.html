@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visual Search Stimuli</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f0f0f0; }
+    .stimulus { margin-bottom: 40px; }
+    h3 { margin-bottom: 6px; }
+    canvas { border: 1px solid #ccc; background: white; display: block; margin-bottom: 8px; }
+    button { padding: 8px 16px; cursor: pointer; }
+  </style>
+</head>
+<body>
+    // Visual search stimulus generator for eye-tracking experiment
+    // Opens in a browser — each canvas renders one stimulus image
+    // Download buttons - to save PNGs
+
+  <h2>Visual Search Stimuli — Target: C among O distractors</h2>
+
+  <div class="stimulus">
+    <h3>1. Target TOP</h3>
+    <canvas id="canvas-top" width="810" height="1080"></canvas>
+    <button onclick="download('canvas-top', 'visual_search_top.png')">Download PNG</button>
+  </div>
+
+  <div class="stimulus">
+    <h3>2. Target MIDDLE</h3>
+    <canvas id="canvas-mid" width="810" height="1080"></canvas>
+    <button onclick="download('canvas-mid', 'visual_search_mid.png')">Download PNG</button>
+  </div>
+
+  <div class="stimulus">
+    <h3>3. Target BOTTOM</h3>
+    <canvas id="canvas-bot" width="810" height="1080"></canvas>
+    <button onclick="download('canvas-bot', 'visual_search_bot.png')">Download PNG</button>
+  </div>
+
+  <script>
+    // Grid dimensions
+    const COLS = 5;
+    const ROWS = 7;    // odd number so an exact middle row exists (index 3)
+
+    // Layout: each grid cell is 135 px square; padding keeps the grid centred
+    // on the 810 × 1080 canvas (810 = 5 × 135 + 2 × 67.5 padding)
+    const CELL = 135;  // px per grid cell
+    const PAD  = 67.5; // canvas edge padding before the first cell centre
+
+    // Appearance of each item
+    const R    = 40;      // circle radius (px)
+    const LINE = 9;       // stroke width (px)
+    const COLOR = '#555'; // dark grey
+
+    // Target position for each condition (0-indexed row and column)
+    // MID_ROW = floor(7/2) = 3, which is the exact centre of 7 rows
+    const MID_ROW = Math.floor(ROWS / 2);
+    const configs = [
+      { id: 'canvas-top', targetRow: 0,        targetCol: 2 }, // first row, 3rd column
+      { id: 'canvas-mid', targetRow: MID_ROW,  targetCol: 3 }, // middle row, 4th column
+      { id: 'canvas-bot', targetRow: ROWS - 1, targetCol: 1 }, // last row, 2nd column
+    ];
+
+    // Draws a complete circle — the distractor letter O
+    function drawO(ctx, cx, cy) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, R, 0, Math.PI * 2);
+      ctx.strokeStyle = COLOR;
+      ctx.lineWidth = LINE;
+      ctx.stroke();
+    }
+
+    // Draws a circle with a gap on the right side — the target letter C
+    // The arc starts and ends 0.45 radians away from angle 0 (the rightmost point),
+    // leaving a visible opening that distinguishes C from O
+    function drawC(ctx, cx, cy) {
+      const gap = 0.45; // radians — size of the opening on the right
+      ctx.beginPath();
+      ctx.arc(cx, cy, R, gap, Math.PI * 2 - gap);
+      ctx.strokeStyle = COLOR;
+      ctx.lineWidth = LINE;
+      ctx.stroke();
+    }
+
+    // Renders one full stimulus: fills the canvas white, then draws the 5×7 grid
+    // Every cell gets an O except the cell at (targetRow, targetCol) which gets a C
+    function drawStimulus(canvasId, targetRow, targetCol) {
+      const canvas = document.getElementById(canvasId);
+      const ctx = canvas.getContext('2d');
+
+      // White background
+      ctx.fillStyle = 'white';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      for (let row = 0; row < ROWS; row++) {
+        for (let col = 0; col < COLS; col++) {
+          // Convert grid coordinates to pixel centre of the cell
+          const cx = PAD + col * CELL + CELL / 2;
+          const cy = PAD + row * CELL + CELL / 2;
+
+          if (row === targetRow && col === targetCol) {
+            drawC(ctx, cx, cy); // target
+          } else {
+            drawO(ctx, cx, cy); // distractor
+          }
+        }
+      }
+    }
+
+    // Triggers a PNG download by creating a temporary <a> link and clicking it
+    function download(canvasId, filename) {
+      const link = document.createElement('a');
+      link.download = filename;
+      link.href = document.getElementById(canvasId).toDataURL('image/png');
+      link.click();
+    }
+
+    // Render all three stimulus variants on page load
+    for (const cfg of configs) {
+      drawStimulus(cfg.id, cfg.targetRow, cfg.targetCol);
+    }
+  </script>
+</body>
+</html>
